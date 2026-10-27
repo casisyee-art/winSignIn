@@ -57,6 +57,8 @@ dependencies {
     implementation("androidx.camera:camera-lifecycle:1.4.2")
     implementation("androidx.camera:camera-view:1.4.2")
     implementation("com.google.mlkit:barcode-scanning:17.3.0")
+    // [P2] ML Kit 没解出来时，用 ZXing 做二维码兜底解码
+    implementation("com.google.zxing:core:3.5.3")
     // 返回箭头等基础图标
     implementation("androidx.compose.material:material-icons-core")
     // 密码显示/隐藏用的 Visibility 图标
